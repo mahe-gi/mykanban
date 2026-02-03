@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.24/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.24", 
+  "version": "1.0.0",
+  "id": "b6f08e4b-259a-41c3-8854-b7708ff3452a",
+  "packageName": "com.digitalbevy.kanban",
+  "developer": {
+    "name": "Digital Bevy",
+    "websiteUrl": "https://digitalbevy.com",
+    "privacyUrl": "https://digitalbevy.com/privacy",
+    "termsOfUseUrl": "https://digitalbevy.com/terms"
+  },
+  "icons": {
+    "color": "icon-color.png",
+    "outline": "icon-outline.png"
+  },
+  "name": {
+    "short": "Kanban Board",
+    "full": "Custom Kanban Task Board"
+  },
+  "description": {
+    "short": "Visual task management for Teams",
+    "full": "A custom Kanban board for managing tasks visually within Microsoft Teams channels. Organize work with To Do, In Progress, and Done columns."
+  },
+  "accentColor": "#4A90E2",
+  "configurableTabs": [
+    {
+      "configurationUrl": "https://prehistorically-unifilar-anamaria.ngrok-free.dev/config",
+      "canUpdateConfiguration": true,
+      "scopes": ["team"],
+      "context": ["channelTab"]
+    }
+  ],
+  "permissions": ["identity"],
+  "validDomains": ["prehistorically-unifilar-anamaria.ngrok-free.dev"]
+}
